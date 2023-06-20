@@ -1,0 +1,79 @@
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+#maze_container {
+    width: 1160px; /* this makes it so the camera is in the center */
+    height: 540px;
+    position: relative;
+    
+  }
+  #maze {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .player {
+    position: absolute;
+    top: 240px;
+    left: 560px;
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+  }
+  .circle {
+    
+    height: 895px;
+    width: 1896px;
+    left: -6px;
+    top: -25px;
+    position: absolute;
+    z-index: 1;
+    
+  }	
+  #score {
+    color: red;
+    font-size: 3rem;
+    z-index: 2;
+    position: fixed;
+    top: 20px;
+    right: 50%;
+  }
+
+  .monster {
+    width: 40px;
+    height: 40px;
+    background-image: url(/monster.png);
+    position: absolute;
+  }
+
+
+  #winner {
+    color: blue;
+    font-size: 3rem;
+    z-index: 2;
+    position: fixed;
+    top: 80%;
+    right: 50%;
+  }
+
+  #button {
+    color: blue;
+    font-size: 3rem;
+    z-index: 2;
+    position: absolute;
+    top: 60%;
+    right: 50%;
+  }
+
+
+  #button2 {
+    color: blue;
+    font-size: 3rem;
+    z-index: 2;
+    position: absolute;
+    top: 80%;
+    right: 50%;
+  }
